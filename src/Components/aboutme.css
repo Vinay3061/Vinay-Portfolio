@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.aboutcontainer{
+    background-color:#F6F6F6;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+
+.aboutimagecontainer{
+ width:90%;
+ margin-left: 5%;
+}
+
+
+
+
+.aboutimg{
+    height:100%;
+    width:100%;
+}
+
+.aboutcontent{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    font-family: "Poppins", sans-serif;
+    margin-top: 5%;
+    width:90%;
+    margin-left:5%;
+
+}
+
+.abouttitle{
+    font-size:18px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.aboutname{
+    font-size:48px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.aboutname span {
+    background-image: linear-gradient(to right, blueviolet, blueviolet, #ff4b2b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.aboutdesc{
+    font-size:18px;
+    color: gray;
+    margin-bottom:20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.skilltitle{
+    font-size:18px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.aboutbutton{
+    width:150px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.skillcard{
+    width:100px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-size:14px;
+    color:gray;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin:10px;
+
+}
+
+.aboutskills{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+
+@media screen  and (min-width:768px) {
+
+    .aboutcontainer{
+        background-color:#F6F6F6;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:100%
+    }
+    
+    .aboutimagecontainer{
+        width:40%;
+    }
+    
+    .aboutimg{
+        width: 70%;
+        height:600px;
+    }
+    
+    .aboutcontent{
+        display: flex;
+        flex-direction: column;
+        height:500px;
+        font-family: "Poppins", sans-serif;
+        width:50%;
+        margin-top: 5%;
+    }
+    
+    .abouttitle{
+        font-size:18px;
+        color: black;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+    
+    .aboutname{
+        font-size:48px;
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    .aboutname span {
+        background-image: linear-gradient(to right, blueviolet, blueviolet, #ff4b2b);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+    
+    .aboutdesc{
+        font-size:18px;
+        color: gray;
+        margin-bottom:20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        margin-right: 150px;
+        text-align: justify;
+    }
+    
+    .skilltitle{
+        font-size:18px;
+        color: black;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+    }
+    
+    .aboutbutton{
+        width:150px;
+        height: 50px;
+        background-color: blueviolet;
+        border-radius: 5px;
+        font-family: "Poppins", sans-serif;
+        color: white;
+    }
+    
+    .skillcard{
+        width:100px;
+        height: 50px;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        font-size:14px;
+        color:gray;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin:10px;
+    
+    }
+    
+    .aboutskills{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    
+}
